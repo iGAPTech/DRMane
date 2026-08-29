@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-box{
+            padding: 40px;
+            background-color: rgb(231, 167, 84);
+            width: 30%;
+            margin: auto;
+            border-radius: 15px;
+            margin-top: 80px;
+        }
+        h1{
+            text-align: center;
+        }
+        .login-form{
+            padding: 30px;
+        }
+
+        input{
+            /* margin-top: 8px;
+            margin-bottom: 8px; */
+
+            margin: 4px 0px;
+            width: 90%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+
+            border: 2px solid #6a4d04;
+            outline: 1px solid #6a4d04;
+        }
+
+        .login-btn{
+            display: block;
+            margin: auto;
+            margin-top: 25px;
+            width: 100px;
+            padding: 10px;
+            font-size: 18px;
+            background-color: aquamarine;
+            border-radius: 8px;
+        }
+
+        input:focus{
+            border: 2px solid #02b33a;
+            outline: 1px solid #02b33a;
+        }
+        a{
+            display: block;
+            text-align: center;
+            margin-top: 12px;
+            color: black;
+            font-style: bold;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Login</h1>
+        <hr>
+
+        <form action="" class="login-form">
+            <label for="">Email</label> <br>
+            <input type="email" name="email" placeholder="Enter Email" required><br>
+
+            <label for="">Password</label> <br>
+            <input type="password" name="password" placeholder="Enter Password" required><br>
+
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <a href="register.html">New User..? Click here to Register </a>
+
+        </form>
+    </div>
+</body>
+</html>
